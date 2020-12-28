@@ -78,17 +78,7 @@ package](http://asbcllc.com/nbastatR/)).
 
 ``` r
 library("ggplot2")
-#> Warning: package 'ggplot2' was built under R version 3.6.3
 library("dplyr")
-#> Warning: package 'dplyr' was built under R version 3.6.3
-#> 
-#> Attaching package: 'dplyr'
-#> The following objects are masked from 'package:stats':
-#> 
-#>     filter, lag
-#> The following objects are masked from 'package:base':
-#> 
-#>     intersect, setdiff, setequal, union
 data(nba_results2020)
 
 nba_results2020 %>% 

@@ -61,7 +61,7 @@ nba_palette("raptors_military")
 
 The package comes with team results from the 2020 NBA season (obtained using `nbastatR::game_logs()` from the [nbastatR package](http://asbcllc.com/nbastatR/)).
 
-```{r, ggplot1, fig.height = 3}
+```{r, ggplot1, fig.height = 3, warning=F, message=F}
 library("ggplot2")
 library("dplyr")
 data(nba_results2020)
