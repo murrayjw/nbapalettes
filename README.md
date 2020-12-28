@@ -54,7 +54,7 @@ to see the Utah Jazz city colors for this season:
 nba_palette("jazz_city")
 ```
 
-<img src="man/figures/README-jazz-1.png" width="100%" />
+![](figure/jazz-1.png)<!-- -->
 
 ### Toronto Raptors
 
@@ -62,13 +62,13 @@ nba_palette("jazz_city")
 nba_palette("raptors_original")
 ```
 
-<img src="man/figures/README-royal-1.png" width="100%" />
+![](figure/royal-1.png)<!-- -->
 
 ``` r
 nba_palette("raptors_military")
 ```
 
-<img src="man/figures/README-royal-2.png" width="100%" />
+![](figure/royal-2.png)<!-- -->
 
 ### Miami Heat
 
@@ -98,7 +98,7 @@ nba_results2020 %>%
    scale_fill_manual(values = nba_palette("heat"))
 ```
 
-<img src="man/figures/README-ggplot1-1.png" width="100%" />
+![](figure/ggplot1-1.png)<!-- -->
 
 `nba_palette()` takes an argument `type` which can be either continuous
 or discrete.
@@ -114,7 +114,7 @@ nba_results2020 %>%
   theme_minimal()
 ```
 
-<img src="man/figures/README-ggplot2-1.png" width="100%" />
+![](figure/ggplot2-1.png)<!-- -->
 
 ### More examples
 
@@ -122,49 +122,49 @@ nba_results2020 %>%
 nba_palette("bucks_earned")
 ```
 
-<img src="man/figures/README-bucks_earned-1.png" width="100%" />
+![](figure/bucks_earned-1.png)<!-- -->
 
 ``` r
 nba_palette("bucks_city2")
 ```
 
-<img src="man/figures/README-bucks_ciy-1.png" width="100%" />
+![](figure/bucks_ciy-1.png)<!-- -->
 
 ``` r
 nba_palette("bobcats")
 ```
 
-<img src="man/figures/README-bobcats-1.png" width="100%" />
+![](figure/bobcats-1.png)<!-- -->
 
 ``` r
 nba_palette("grizzlies_retro")
 ```
 
-<img src="man/figures/README-grizzlies_retro-1.png" width="100%" />
+![](figure/grizzlies_retro-1.png)<!-- -->
 
 ``` r
 nba_palette("grizzlies_retro", 'continuous', n = 100)
 ```
 
-<img src="man/figures/README-grizzlies_retro-2.png" width="100%" />
+![](figure/grizzlies_retro-2.png)<!-- -->
 
 ``` r
 nba_palette("sixers_city")
 ```
 
-<img src="man/figures/README-sixers_city-1.png" width="100%" />
+![](figure/sixers_city-1.png)<!-- -->
 
 ``` r
 nba_palette("warriors")
 ```
 
-<img src="man/figures/README-warriors-1.png" width="100%" />
+![](figure/warriors-1.png)<!-- -->
 
 ``` r
 nba_palette("warriors_00s")
 ```
 
-<img src="man/figures/README-warriors-2.png" width="100%" />
+![](figure/warriors-2.png)<!-- -->
 
 ### Combining Palettes
 
@@ -174,4 +174,4 @@ Palettes can be combined by passing a vector of palette names
 nba_palette(c("warriors", "warriors_00s"))
 ```
 
-<img src="man/figures/README-warriors_combined-1.png" width="100%" />
+![](figure/warriors_combined-1.png)<!-- -->
