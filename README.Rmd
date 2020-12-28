@@ -39,12 +39,19 @@ available_palettes()
 
 The package currently contains 129 palettes based on various NBA jerseys from every current NBA team and a few of former teams (Bobcats, Supersonics, New Orleans Hornets). 
 
-
-
-### Utah Jazz 
+## Denver Nuggets
 
 The structure of the palette names is: teamname_jerseytype. For example to see the
 Utah Jazz city colors for this season:
+
+```{r, nuggets}
+nba_palette("nuggets_city2")
+```
+
+![](nuggets.jpg)
+
+### Utah Jazz 
+
 
 ```{r, jazz}
 nba_palette("jazz_city")
