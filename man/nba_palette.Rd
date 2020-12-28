@@ -34,7 +34,7 @@ nba_palette("nuggets_80s")
 # If you need more colours than normally found in a palette, you
 # can use a continuous palette to interpolate between existing
 # colours
-pal <- wes_palette(21, name = "Zissou1", type = "continuous")
-image(volcano, col = pal)
+pal <- nba_palette(n = 21, name = "grizzlies", type = "continuous")
+pal
 }
 \keyword{colors}

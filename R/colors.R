@@ -217,8 +217,8 @@ available_palettes <- function(team = 'all') {
 #' # If you need more colours than normally found in a palette, you
 #' # can use a continuous palette to interpolate between existing
 #' # colours
-#' pal <- wes_palette(21, name = "Zissou1", type = "continuous")
-#' image(volcano, col = pal)
+#' pal <- nba_palette(n = 21, name = "grizzlies", type = "continuous")
+#' pal
 nba_palette <- function(name,  n, type = c("discrete", "continuous")) {
   type <- match.arg(type)
 
