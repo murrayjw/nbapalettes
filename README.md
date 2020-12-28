@@ -56,6 +56,8 @@ nba_palette("jazz_city")
 
 ![](figure/jazz-1.png)<!-- -->
 
+![](jazz-city.jpg)
+
 ### Toronto Raptors
 
 ``` r
@@ -69,6 +71,8 @@ nba_palette("raptors_military")
 ```
 
 ![](figure/royal-2.png)<!-- -->
+
+![](raps-military.jpg)
 
 ### Miami Heat
 
@@ -113,6 +117,8 @@ nba_palette("bucks_earned")
 ```
 
 ![](figure/bucks_earned-1.png)<!-- -->
+
+![](bucks-earned.jpg)
 
 ``` r
 nba_palette("bucks_city2")
