@@ -3,6 +3,8 @@
 
 # NBA Palettes
 
+<img src='man/figure/logo.jpeg' height="139" />
+
 This package is based on the amazing
 [wesanderson](https://github.com/karthik/wesanderson) package. It
 includes color palettes taken from a large variety of NBA jersey
@@ -54,9 +56,9 @@ to see the Utah Jazz city colors for this season:
 nba_palette("nuggets_city2")
 ```
 
-![](figure/nuggets-1.png)<!-- -->
+![](man/figure/nuggets-1.png)<!-- -->
 
-![](nuggets.jpg)
+![](man/figure/nuggets.jpg)
 
 ### Utah Jazz
 
@@ -64,9 +66,9 @@ nba_palette("nuggets_city2")
 nba_palette("jazz_city")
 ```
 
-![](figure/jazz-1.png)<!-- -->
+![](man/figure/jazz-1.png)<!-- -->
 
-![](jazz-city.jpg)
+![](man/figure/jazz-city.jpg)
 
 ### Toronto Raptors
 
@@ -74,15 +76,15 @@ nba_palette("jazz_city")
 nba_palette("raptors_original")
 ```
 
-![](figure/royal-1.png)<!-- -->
+![](man/figure/royal-1.png)<!-- -->
 
 ``` r
 nba_palette("raptors_military")
 ```
 
-![](figure/royal-2.png)<!-- -->
+![](man/figure/royal-2.png)<!-- -->
 
-![](raps-military.jpg)
+![](man/figure/raps-military.jpg)
 
 ### Miami Heat
 
@@ -102,7 +104,7 @@ nba_results2020 %>%
    scale_fill_manual(values = nba_palette("heat"))
 ```
 
-![](figure/ggplot1-1.png)<!-- -->
+![](man/figure/ggplot1-1.png)<!-- -->
 
 `nba_palette()` takes an argument `type` which can be either continuous
 or discrete.
@@ -118,7 +120,7 @@ nba_results2020 %>%
   theme_minimal()
 ```
 
-![](figure/ggplot2-1.png)<!-- -->
+![](man/figure/ggplot2-1.png)<!-- -->
 
 ### More examples
 
@@ -126,51 +128,51 @@ nba_results2020 %>%
 nba_palette("bucks_earned")
 ```
 
-![](figure/bucks_earned-1.png)<!-- -->
+![](man/figure/bucks_earned-1.png)<!-- -->
 
-![](bucks-earned.jpg)
+![](man/figure/bucks-earned.jpg)
 
 ``` r
 nba_palette("bucks_city2")
 ```
 
-![](figure/bucks_ciy-1.png)<!-- -->
+![](man/figure/bucks_ciy-1.png)<!-- -->
 
 ``` r
 nba_palette("bobcats")
 ```
 
-![](figure/bobcats-1.png)<!-- -->
+![](man/figure/bobcats-1.png)<!-- -->
 
 ``` r
 nba_palette("grizzlies_retro")
 ```
 
-![](figure/grizzlies_retro-1.png)<!-- -->
+![](man/figure/grizzlies_retro-1.png)<!-- -->
 
 ``` r
 nba_palette("grizzlies_retro", 'continuous', n = 100)
 ```
 
-![](figure/grizzlies_retro-2.png)<!-- -->
+![](man/figure/grizzlies_retro-2.png)<!-- -->
 
 ``` r
 nba_palette("sixers_city")
 ```
 
-![](figure/sixers_city-1.png)<!-- -->
+![](man/figure/sixers_city-1.png)<!-- -->
 
 ``` r
 nba_palette("warriors")
 ```
 
-![](figure/warriors-1.png)<!-- -->
+![](man/figure/warriors-1.png)<!-- -->
 
 ``` r
 nba_palette("warriors_00s")
 ```
 
-![](figure/warriors-2.png)<!-- -->
+![](man/figure/warriors-2.png)<!-- -->
 
 ### Combining Palettes
 
@@ -180,4 +182,4 @@ Palettes can be combined by passing a vector of palette names
 nba_palette(c("warriors", "warriors_00s"))
 ```
 
-![](figure/warriors_combined-1.png)<!-- -->
+![](man/figure/warriors_combined-1.png)<!-- -->

@@ -14,7 +14,9 @@ knitr::opts_chunk$set(
 ```
 
 
-# NBA Palettes
+# NBA Palettes 
+
+<img src='man/figure/logo.jpeg' height="139" />
 
 This package is based on the amazing [wesanderson](https://github.com/karthik/wesanderson) package. It includes color palettes taken from a large variety of NBA jersey colorways. These can be used to [Spicy P](https://twitter.com/pskills43/status/1337063497469997058/photo/1) up your plots. The package currently contains 129 different palettes. 
 
