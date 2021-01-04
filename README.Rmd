@@ -8,7 +8,7 @@ output: github_document
 knitr::opts_chunk$set(
    collapse = TRUE,
   comment = "#>",
-  fig.path = "figure/",
+  fig.path = "man/figure/",
   fig.height = 1
 )
 ```
@@ -48,7 +48,7 @@ Utah Jazz city colors for this season:
 nba_palette("nuggets_city2")
 ```
 
-![](figure/nuggets.jpg)
+![](man/figure/nuggets.jpg)
 
 ### Utah Jazz 
 
@@ -57,7 +57,7 @@ nba_palette("nuggets_city2")
 nba_palette("jazz_city")
 ```
 
-![](figure/jazz-city.jpg)
+![](man/figure/jazz-city.jpg)
 
 ### Toronto Raptors
 
@@ -66,7 +66,7 @@ nba_palette("raptors_original")
 nba_palette("raptors_military")
 ```
 
-![](figure/raps-military.jpg)
+![](man/figure/raps-military.jpg)
 
 ### Miami Heat
 
@@ -107,7 +107,7 @@ nba_results2020 %>%
 nba_palette("bucks_earned")
 ```
 
-![](figure/bucks-earned.jpg)
+![](man/figure/bucks-earned.jpg)
 
 ```{r, bucks_ciy}
 nba_palette("bucks_city2")
