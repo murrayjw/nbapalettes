@@ -15,7 +15,7 @@ knitr::opts_chunk$set(
 
 
 <!-- badges: start -->
-[![Travis build status](https://travis-ci.com/murrayjw/nbapalettes.svg?branch=master)](https://travis-ci.com/murrayjw/nbapalettes)
+[![Travis build status](https://travis-ci.org/murrayjw/nbapalettes.svg?branch=master)](https://travis-ci.org/murrayjw/nbapalettes)
 <!-- badges: end -->
   
 # NBA Palettes 

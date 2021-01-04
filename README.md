@@ -1,6 +1,12 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
+<!-- badges: start -->
+
+[![Travis build
+status](https://travis-ci.org/murrayjw/nbapalettes.svg?branch=master)](https://travis-ci.org/murrayjw/nbapalettes)
+<!-- badges: end -->
+
 # NBA Palettes
 
 <img src='man/figure/logo.jpeg' height="139" />
