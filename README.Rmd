@@ -48,7 +48,7 @@ Utah Jazz city colors for this season:
 nba_palette("nuggets_city2")
 ```
 
-![](nuggets.jpg)
+![](figure/nuggets.jpg)
 
 ### Utah Jazz 
 
@@ -57,7 +57,7 @@ nba_palette("nuggets_city2")
 nba_palette("jazz_city")
 ```
 
-![](jazz-city.jpg)
+![](figure/jazz-city.jpg)
 
 ### Toronto Raptors
 
@@ -66,7 +66,7 @@ nba_palette("raptors_original")
 nba_palette("raptors_military")
 ```
 
-![](raps-military.jpg)
+![](figure/raps-military.jpg)
 
 ### Miami Heat
 
@@ -107,7 +107,7 @@ nba_results2020 %>%
 nba_palette("bucks_earned")
 ```
 
-![](bucks-earned.jpg)
+![](figure/bucks-earned.jpg)
 
 ```{r, bucks_ciy}
 nba_palette("bucks_city2")
