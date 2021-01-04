@@ -160,6 +160,7 @@ nba_palettes <- list(
 #' all available teams
 #' @return A tibble containing the palette options for a given NBA team.
 #'
+#' @importFrom dplyr tibble
 #' @export
 #' @keywords colors
 #' @examples
@@ -205,7 +206,7 @@ available_palettes <- function(team = 'all') {
 #' options are available
 #' @param type Either "continuous" or "discrete". Use continuous if you want
 #'   to automatically interpolate between colours.
-#'   @importFrom graphics rgb rect par image text
+#' @importFrom graphics rgb rect par image text
 #' @return A vector of colours.
 #' @export
 #' @keywords colors
