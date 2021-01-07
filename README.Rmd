@@ -15,6 +15,7 @@ knitr::opts_chunk$set(
 
 
 <!-- badges: start -->
+[![CRAN_Status_Badge](https://www.r-pkg.org/badges/version/nbapalettes)](https://CRAN.R-project.org/package=nbapalettes)
 [![Travis build status](https://travis-ci.org/murrayjw/nbapalettes.svg?branch=master)](https://travis-ci.org/murrayjw/nbapalettes)
 <!-- badges: end -->
   
@@ -25,6 +26,17 @@ knitr::opts_chunk$set(
 This package is based on the amazing [wesanderson](https://github.com/karthik/wesanderson) package. It includes color palettes taken from a large variety of NBA jersey colorways. These can be used to [Spicy P](https://twitter.com/pskills43/status/1337063497469997058/photo/1) up your plots. The package currently contains 129 different palettes. 
 
 ## Installation
+
+
+### CRAN
+
+Package can be installed from cran with the following:
+
+```r
+install.packages('nbapalettes')
+```
+
+The dev version of the package can be installed from github with the following:
 
 ```r
 devtools::install_github('murrayjw/nbapalettes')

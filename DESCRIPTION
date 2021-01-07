@@ -1,10 +1,13 @@
 Package: nbapalettes
-Title: An NBA jersey Palette Generator
+Title: An NBA Jersey Palette Generator
 Description: Palettes generated from NBA jersey colorways.
 Date: 2020-12-27
-Version: 0.1.0
-Authors@R: c(person("Murray", "Josh", role = c("aut", "cre"),
-    email = "joshua.murray@utoronto.ca"))
+Version: 0.1.0.9000
+Authors@R: 
+    person(given = "Murray",
+           family = "Josh",
+           role = c("aut", "cre"),
+           email = "joshua.murray@utoronto.ca")
 Depends:
     R (>= 3.0)
 License: MIT + file LICENSE
